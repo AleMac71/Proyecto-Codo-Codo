@@ -1,0 +1,369 @@
+* {
+    font-family: 'Nunito', sans-serif;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.navegación {
+    background: rgb(159, 54, 71);
+    position: fixed;
+    font-weight: 700;
+    font-size: 1.2rem;
+    padding-top: 18px;
+    padding-left: 15px;
+    padding-right: 18px;
+    display: inline-flex;
+    width: 100%;
+}
+
+.logo {
+    color: white;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+
+}
+
+.conte_lis {
+    width: 100%;
+    display: flex;
+    justify-content: end;
+}
+
+.nav_lis {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
+    gap: 10px;
+}
+
+.lista {
+    text-decoration: none;
+    color: white;
+    margin-left: 15px;
+    margin-right: 8px;
+}
+
+.lista3 {
+    background-color: black;
+    border: 2px solid black;
+    border-radius: 0.5vw;
+    padding: 10px 10px;
+    margin-left: 10px;
+    text-decoration: none;
+    color: white;
+}
+
+.Imagen_home {
+    width: auto;
+    height: 130vh;
+    background-image: url(Imagenes/foto_principal.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.texto_central {
+    font-size: 4rem;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    padding-top: 70px;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+.subtitulo_central {
+    font-size: 2.5rem;
+    line-height: 90%;
+    color: white;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.boton_registrar1 {
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.boton {
+    border-radius: 0.5vw;
+    text-decoration: none;
+    color: white;
+    border: none;
+    background-color: rgb(172, 46, 70);
+    width: 150px;
+    height: 50px;
+}
+
+.entra_busca {
+    background-color: rgb(25, 20, 25);
+}
+
+.titulo_busca {
+
+    font-size: 2rem;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    padding-top: 5%;
+}
+
+.busqueda {
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 90px;
+}
+
+.cuadro_texto {
+    width: 70vh;
+    height: 50px;
+    border-radius: 20vw;
+    font-size: 18px;
+    padding-left: 15px;
+}
+
+.boton_buscar {
+    background-color: rgb(156, 53, 70);
+    border-radius: 20vw;
+    width: 15vh;
+    height: 50px;
+    font-size: 18px;
+    font-weight: bold;
+    border-color: white;
+    color: white;
+    padding-left: 5px;
+    padding-right: 5px;
+    text-align: center;
+}
+
+hr {
+    background-color: rgb(25, 20, 25);
+    margin-top: 1.5vh;
+    margin-bottom: 2.5vh;
+    margin-left: 20vh;
+    margin-right: 20vh;
+    color: rgb(156, 53, 70);
+
+}
+
+.tendencias_hoy {
+    background-color: rgb(25, 20, 25);
+    text-align: center;
+    color: white;
+}
+
+.fila {
+    height: 28vw;
+    margin-top: 3vw;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.col {
+    width: 35vh;
+}
+
+.card-img-top {
+    width: 100%;
+    height: 100%;
+
+}
+
+.botones_card {
+    text-align: center;
+    margin-top: 4vw;
+}
+
+.boton_anterior {
+    background-color: rgb(156, 53, 70);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-right: 1vw;
+    border-radius: 5px;
+    width: 15vh;
+    border-color: white;
+    color: white;
+}
+
+.boton_siguiente {
+    background-color: rgb(156, 53, 70);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-left: 1vw;
+    border-radius: 5px;
+    border-color: white;
+    width: 15vh;
+    color: white;
+}
+
+.carrusel_fotos {
+    background-color: rgb(25, 20, 25);
+    height: 28vh;
+    margin-top: 3vw;
+    display: flex;
+    justify-content: center;
+}
+
+.linea {
+    background-color: rgb(25, 20, 25);
+    margin-top: 20vh;
+    margin-bottom: 2.5vh;
+    margin-left: 20vh;
+    margin-right: 20vh;
+    color: rgb(156, 53, 70);
+}
+
+.titulo_carrusel {
+    font-size: 2rem;
+    text-align: center;
+    color: white;
+    margin-top: 5vh;
+    padding-bottom: 3%;
+}
+
+.carrusel {
+    width: 30vh;
+    height: 20vh;
+    padding-bottom: 10vw;
+    display: inline-flex;
+    text-align: center;
+}
+
+#carouselExample {
+    width: 100%;
+    height: 100%;
+
+}
+
+.carousel-inner {
+    width:40vh;
+    height:35vw;
+    display:flex;
+    justify-content: center;
+
+}
+
+.pie_lis {
+    height: 15vh;
+    text-align: center;
+    background-color: rgb(156, 53, 70);
+
+}
+
+.nav_pie {
+    display: inline-flex;
+    margin-top: 30px;
+    font-size: 1.2rem;
+    list-style: none;
+
+}
+
+.pie {
+    margin-left: 2vw;
+    margin-right: 5vw;
+
+}
+
+.pie3 {
+    background-color: black;
+    border: 2px solid black;
+    border-radius: 0.5vw;
+    padding: 10px 10px;
+    margin-left: 10px;
+    text-decoration: none;
+    color: white;
+}
+
+
+
+/*Pagina Registro*/
+#fondo_registro {
+    background-image: url(Imagenes/foto_registro.jpg);
+}
+
+.logo_registro {
+    height: 50px;
+    padding-top: 1vw;
+}
+
+.titulo_registro {
+    text-align: center;
+    font-weight: bold;
+    color: white;
+}
+
+.fondo_formulario {
+    background-color: rgb(42, 42, 42);
+    width: 92%;
+    margin-left: 4vw;
+
+}
+
+.form-control {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 15px;
+    border-width: 2px;
+    border-color: rgb(156, 53, 70);
+    background-color: rgb(51, 51, 51);
+    color: white;
+}
+
+.form-select {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 15px;
+    border-width: 2px;
+    border-color: rgb(156, 53, 70);
+    background-color: rgb(51, 51, 51);
+    color: white;
+}
+
+.form-control::placeholder {
+    color: rgb(115, 115, 115)
+}
+
+.relleno_formulario {
+    margin-left: 20vw;
+    margin-right: 20vw;
+
+}
+
+.chequeo {
+    color: white;
+    font-size: 13px;
+}
+
+.boton_re {
+    text-align: center;
+
+}
+
+.ayuda {
+    text-align: center;
+    color: white;
+    font-size: 14px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.boton_registrar {
+    background-color: rgb(156, 53, 70);
+    color: white;
+    border-radius: 8px;
+    border-color: rgb(156, 53, 70);
+    margin-top: 1.5vw;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 45vw;
+    font-size: 14px;
+}
