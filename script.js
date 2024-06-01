@@ -3,7 +3,7 @@ const botonAnterior = document.getElementsByClassName("boton_anterior");
 const botonSiguiente = document.getElementsByClassName("boton_siguiente");
 
 let pagina = 1;
-botonAnterior.addEventlistener("click", () => {
+botonAnterior.addEventListener("click", () => {
   if (pagina > 1) {
     pagina -= 1;
     traerPeliculas();
@@ -30,7 +30,7 @@ const traerPeliculas = async () => {
     let peliculas = [];
     datos.results.forEach(pelicula => {
       peliculas +=
-        `<div class="card fila">
+        `<div id="pelicula" class="card" style="width: 18rem;">
          <img src="https://image.tmdb.org/t/p/w500/${pelicula.poster_path}" class="card-img-top" alt="peliculas">
             <div>
                  <h5 class="card-title titulo">${pelicula.title}</h5>

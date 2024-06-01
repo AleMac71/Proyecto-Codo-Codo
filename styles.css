@@ -226,7 +226,7 @@ hr {
     margin-top: 5vh;
     padding-bottom: 3%;
 }
-css
+
 .carousel {
   width: 100%;
   overflow: hidden;
@@ -367,4 +367,23 @@ a {
     padding-bottom: 10px;
     width: 45vw;
     font-size: 14px;
+}
+
+/* Media Queries */
+@media screen and (max-width: 480px) {
+    .conte_lis {
+        justify-content: center;
+    }
+}
+
+@media screen and (min-width: 481px) and (max-width: 720px) {
+    .conte_lis {
+        justify-content: center;
+    }
+}
+
+@media screen and (min-width: 721px) and (max-width: 1200px) {
+    .conte_lis {
+        justify-content: flex-end;
+    }
 }
