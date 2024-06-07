@@ -101,6 +101,7 @@
 
 .entra_busca {
     background-color: rgb(25, 20, 25);
+    padding-bottom: 15vh;
 }
 
 .titulo_busca {
@@ -155,6 +156,25 @@ hr {
     text-align: center;
     color: white;
 }
+
+#grilla_principal {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+    margin-left: 5vh;
+    margin-right: 5vh;
+    gap: 20px;
+    object-fit: cover;
+   
+}
+#pelicula:hover{
+    transform:scale(1.1);
+    border-color: white;
+}
+
+
 
 .fila {
     height: 28vw;
@@ -228,26 +248,28 @@ hr {
 }
 
 .carousel {
-  width: 100%;
-  overflow: hidden;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    margin-top: 5vh;
 }
 
 .carousel-track {
-  display: flex;
-  gap: 20px;
-  width: calc(3 * 200px);
-  margin: 0 auto;
+    display: flex;
+    gap: 20px;
+    width: calc(3 * 200px);
+    margin: 0 auto;
 }
 
 .carousel-track img {
-  width: 200px;
-  height: 200px;
-  object-fit: cover;
-  transition: transform 0.3s ease-in-out;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    transition: transform 0.3s ease-in-out;
 }
 
 .carousel-track img:hover {
-  transform: scale(1.2) ;
+    transform: scale(1.2);
 }
 
 .pie_lis {
